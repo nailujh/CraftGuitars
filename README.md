@@ -1,5 +1,5 @@
 # proyecto - craftguitars
-- iniciar repositorio con **git init**
-- trabajar en el proyecto 
-- agregar los archivos **con git add**
-- hacer el comit con **git comit -m "mensaje"**
+- poryecto para curso de desarrollo web
+- pagina de guitarras artesanales con seis secciones
+- se empleo html5 y CSS 
+- incluye version moible 

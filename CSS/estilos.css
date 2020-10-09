@@ -10,8 +10,9 @@ html{
  }
 
  body{
-    background: #ebdbcc;
+    background: #ebdbcc;   
  }
+ 
 
 .encabezo{
     text-align: center;
@@ -21,6 +22,12 @@ html{
     top: 0;
     z-index: 2;
     
+  }
+  .open {
+      display: none;
+  }
+  .close {
+      display: none;
   }
 
 .piso{
@@ -82,21 +89,17 @@ p{
        box-sizing: border-box;
        padding: 15px;
       }
-
-      .descriptivo2{
-          display: grid;
-          grid-template-columns: 250px 225px;
-          align-items: center;
-          color:black;
-           text-align: center;
-           width: 50%;
-           margin: auto;
-           box-sizing: border-box;
-            padding: 15px;
-            justify-content: space-evenly;
+.descriptivo2{
+    display: inline;  
+    align-items: center;
+    color:black;
+    text-align: center;
+    box-sizing: border-box;
+   padding: 15px;
+   justify-content: space-evenly;
 
            }
-a,li {
+ a,li {
     
      text-align: center; 
     display: inline-block;
@@ -111,7 +114,7 @@ a,li {
 a:hover {
     color:#F2AA6B;
 transform: scale(1.1,1.1);
-}
+}   
 
 .formulario {
     color:black;
@@ -275,13 +278,10 @@ transform: scale(1.1,1.1);
 .descriptivo2{
         
           align-items: center;
-          color:#D95A11;
            text-align: center;
-           width: 50%;
-           margin: auto;
            box-sizing: border-box;
             padding: 15px;
-            justify-content: space-evenly;
+            justify-content: center;
         }
 .video {
     text-align: center;
@@ -312,7 +312,66 @@ transform: scale(1.1,1.1);
 
 
 @media (max-width: 768px) {
-   
+header nav {
+
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color:rgb(255, 240, 225) ;
+    
+     
+
+}
+header ul  {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    
+}
+a{
+    color: black;
+}
+header h1 {
+    margin-bottom: 40px;
+padding: 10px;
+}
+.open{
+    position: absolute;
+    position: fixed;
+    display: block;
+    left:1px;
+    top: 1px;   
+}
+.close{
+    position: absolute;
+    position: fixed;
+    display: block;
+    left:1px;
+    top: 1px; 
+
+}
+#nav:target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.descriptivo {
+    color: black;
+    text-align: center;
+    width: 90%; 
+    margin: auto;
+    box-sizing: border-box;
+    padding: 15px;
+}   
   
  .galeria {
     background-color:pink;
@@ -338,33 +397,30 @@ transform: scale(1.1,1.1);
        } 
 
 .contactanos{
-   display: inline-block;
-    justify-content: center;
-    margin: auto;
+            display: inline-block;
+            padding: 20px 40px;
+           font-size: 18px;
+            position: fixed;
+            right: 320px;
+            bottom:1px;
+        }
 
-}
 
  .formulario {
-    color:#F2AA6B;
-    font-size: 70%;
+    color:black;
+    font-size: 90%;
     font-weight: bold, sans-serif;
     width: auto;
-   
     border: 2px dotted #F2AA6B;
-    margin: 10px 10px 420px 10px;
+    margin: 50px 5px 150px 5px;
          }
 
 .descriptivo2{
-          display: grid;
-          grid-template-columns: 120px 110px;
-          align-items: center;
-          color:#D95A11;
-           text-align: center;
-           width: 50%;
-           margin: auto;
-           box-sizing: border-box;
-            padding: 15px;
-            justify-content: space-evenly;
+          display: inline;
+         
+        }
+        .somos{
+            margin-top: 40px;
         }
 .video {
     display: none;
@@ -373,58 +429,44 @@ transform: scale(1.1,1.1);
            box-sizing: border-box;
     } 
 
+.artista {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.brandon{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.textbrandon {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
 
-.artista{
-       display: inline-block;
-       grid-gap: 20px;
-       grid-template-rows: 1fr 1fr;
-       text-align: center;
-       width: auto;
-       margin: auto;
-       box-sizing: border-box;
-      padding: 15px;
-
-    }
-
-
-
-.imgartista{
-        border-radius: 5px;
-        width: 225px;
-        height: 130px;
-        margin-right: 15px;
-    }
-
-    .sharon {
-        justify-content: center;
-        padding: 10px;
-        box-sizing: border-box;
-        text-align: start;
-        border: solid rgb(240, 183, 99) 3px;
-        border-radius: 5px;
-    }
-
-    .brandon {
-        justify-items: center;
-        padding: 10px;
-        box-sizing: border-box;
-        text-align: start;
-        border: solid rgb(240, 183, 99) 3px;
-        border-radius: 5px;
-    }
-
-
+}
+.sharon{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
 .arriba {
             
             display: inline-block;
             padding: 20px 40px;
            font-size: 18px;
             position: fixed;
-            right: 5px;
-            bottom:5px;
+            right: 1px;
+            bottom:1px;
         }
 
-
+.gui{
+    border-radius: 5px;
+    height: 215px;
+    margin-right: 15px;
+}
 
 }
 

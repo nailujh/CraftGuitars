@@ -124,8 +124,9 @@ transform: scale(1.1,1.1);
     padding: 10px 5px 5px 10px;
     border: 2px dotted #F2AA6B;
     margin: 10px 100px 200px 300px;
-         }
-
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 
 
 
@@ -246,9 +247,16 @@ transform: scale(1.1,1.1);
 
 
 
-
-@media  (min-width:769) and (max-width:1199){
-
+@media  (min-width 769) and (max-width 1024){
+.formulario {
+    color:#F2AA6B;
+    font-size: 70%;
+    font-weight: bold, sans-serif;
+    width: auto;
+   
+    border: 2px dotted #F2AA6B;
+    margin: 50px 20px 80px 20px;
+         }
 
 .galeria {
     background-color:pink;
@@ -276,15 +284,7 @@ transform: scale(1.1,1.1);
 
 
        
- .formulario {
-    color:#F2AA6B;
-    font-size: 70%;
-    font-weight: bold, sans-serif;
-    width: auto;
-   
-    border: 2px dotted #F2AA6B;
-    margin: 10px 10px 800px 10px;
-         }
+ 
 
 .descriptivo2{
         
@@ -449,7 +449,8 @@ padding: 10px;
 
 .artista {
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 10px;
+    
 }
 .brandon{
     margin-top: 40px;
@@ -457,17 +458,20 @@ padding: 10px;
     display: inline-block;
     justify-content: center;
     text-align: center;
+    
 }
 .textbrandon {
     display: inline-block;
     justify-content: center;
     text-align: center;
+    
 
 }
 .sharon{
     display: inline-block;
     justify-content: center;
     text-align: center;
+    
 }
 .arriba {
             
@@ -493,5 +497,13 @@ padding: 10px;
 text-align: center;
 width: auto;
 }
+.piso2 {
+    margin-top: 250px;
+    background-color:rgb(255, 240, 225); ;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
 }
 
+/* seguir escribiendo textos para las seccione quienes somos acomodar footer en artistas */

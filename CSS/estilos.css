@@ -238,17 +238,14 @@ transform: scale(1.1,1.1);
 }
 .faq{
   padding: 50px;
-   
+   justify-content: center;
+    text-align: center;
+    font-size: 2vw;
   
     margin: auto;
     padding-bottom: 10px;  
 }
 
-.faq{
-    justify-content: center;
-    text-align: center;
-    font-size: 2vw;
-}
 
 @media (min-width: 769px) and (max-width: 1099px) {
 
@@ -374,6 +371,13 @@ font-size: 40px;
     font-size: 3vw;
 }
 
+.piso{
+    background-color:rgb(255, 240, 225); ;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+
+         }
 }
 
 

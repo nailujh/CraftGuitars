@@ -123,9 +123,8 @@ transform: scale(1.1,1.1);
     width: 50vw;
     padding: 10px 5px 5px 10px;
     border: 2px dotted #F2AA6B;
-    margin: 10px 100px 200px 300px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin: 10px 100px 100px 300px;
+    
 }
 
 
@@ -245,19 +244,37 @@ transform: scale(1.1,1.1);
     padding-bottom: 10px;  
 }
 
+.piso2 {
+    background-color:rgb(255, 240, 225); ;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+@media (min-width: 769px) and (max-width: 1099px) {
 
 
-@media  (min-width 769) and (max-width 1024){
+    header nav {
+
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+     }
 .formulario {
-    color:#F2AA6B;
-    font-size: 70%;
+    color: black;
+    font-size:3vw;
     font-weight: bold, sans-serif;
     width: auto;
-   
     border: 2px dotted #F2AA6B;
-    margin: 50px 20px 80px 20px;
+    margin: 20px 20px 80px 20px;
          }
+.descriptivo {
+    font-size: 30px;
+}
 
+.carrusel {
+    padding: 20px;
+    width: 95%;
+}
 .galeria {
     background-color:pink;
        display: flex;
@@ -281,11 +298,6 @@ transform: scale(1.1,1.1);
     
        } 
 
-
-
-       
- 
-
 .descriptivo2{
         
           align-items: center;
@@ -299,7 +311,6 @@ transform: scale(1.1,1.1);
           margin: auto;
            box-sizing: border-box;
     } 
-}
 .arriba {
             
             display: inline-block;
@@ -317,6 +328,48 @@ transform: scale(1.1,1.1);
     justify-content: center;
     margin: 15px;
     padding: 15px;
+
+} 
+
+.artista {
+    display: inline-block;
+    margin-left: 25vw
+    
+}
+
+.brandon{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+}
+.textbrandon {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+
+}
+.sharon{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+}
+.textsharon {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+.somos {  
+font-size: 40px;
+
+}
+
 
 }
 
@@ -426,11 +479,11 @@ padding: 10px;
  .formulario {
      display: inline-block;
     color:black;
-    font-size: 80%;
+    font-size: 3vw;
     font-weight: bold, sans-serif;
     width: auto;
     border: 2px dotted #F2AA6B;
-    margin: 50px 5px 250px 20px;
+    margin: 50px 5px 80px 20px;
          }
 
 .descriptivo2{
@@ -449,7 +502,8 @@ padding: 10px;
 
 .artista {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 25vw;
+    margin-top: 20px;
     
 }
 .brandon{
@@ -488,22 +542,21 @@ padding: 10px;
     height: 215px;
     margin-right: 15px;
 }
-/* .piso{
-    margin-top: 10px; */
+
 
 }
 .caja {
     
 text-align: center;
 width: auto;
+margin-bottom: 30px;
 }
 .piso2 {
-    margin-top: 250px;
     background-color:rgb(255, 240, 225); ;
     display: flex;
     align-self: flex-end;
     justify-content: center;
-}
+    margin-top: 100px;
 }
 
-/* seguir escribiendo textos para las seccione quienes somos acomodar footer en artistas */
+

@@ -247,7 +247,7 @@ transform: scale(1.1,1.1);
 }
 
 
-@media (min-width: 769px) and (max-width: 1099px) {
+@media (min-width: 768px) and (max-width: 1099px) {
 
 
     header nav {
@@ -383,7 +383,7 @@ font-size: 40px;
 
 
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 
     
 header nav {
@@ -557,4 +557,7 @@ padding: 10px;
 text-align: center;
 width: auto;
 margin-bottom: 30px;
+}
+.faq {
+    font-size: 15px ;
 }

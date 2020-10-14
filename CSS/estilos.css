@@ -244,11 +244,10 @@ transform: scale(1.1,1.1);
     padding-bottom: 10px;  
 }
 
-.piso2 {
-    background-color:rgb(255, 240, 225); ;
-    display: flex;
-    align-self: flex-end;
+.faq{
     justify-content: center;
+    text-align: center;
+    font-size: 2vw;
 }
 
 @media (min-width: 769px) and (max-width: 1099px) {
@@ -265,7 +264,7 @@ transform: scale(1.1,1.1);
     font-weight: bold, sans-serif;
     width: auto;
     border: 2px dotted #F2AA6B;
-    margin: 20px 20px 80px 20px;
+    margin: 20px 20px 120px 20px;
          }
 .descriptivo {
     font-size: 30px;
@@ -369,7 +368,11 @@ transform: scale(1.1,1.1);
 font-size: 40px;
 
 }
-
+.faq{
+    justify-content: center;
+    text-align: center;
+    font-size: 3vw;
+}
 
 }
 
@@ -551,12 +554,6 @@ text-align: center;
 width: auto;
 margin-bottom: 30px;
 }
-.piso2 {
-    background-color:rgb(255, 240, 225); ;
-    display: flex;
-    align-self: flex-end;
-    justify-content: center;
-    margin-top: 100px;
-}
+
 
 
